@@ -220,348 +220,6 @@ span {
 }
 
 
-.settings {
-  flex: 1;
-  padding-left:100px;
-}
-
-.settings-group {
-  margin-bottom: 30px;
-}
-
-.settings-group-title {
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 235px;
-}
-
-.settings-options {
-  display: flex;
-  position: relative;
-  padding: 10px 0;
-}
-
-.settings-option-l {
-  padding: 10px 20px;
-  width:240px;
-  height:48px;
-  border: none;   
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 21px;
-  font-family: 'Urbanist', sans-serif;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-}
-
-.settings-option-m {
-  padding: 10px 20px;
-  width:240px;
-  height:48px;
-  border: none;   
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 21px;
-  cursor: pointer;
-  font-family: 'Urbanist', sans-serif;
-  transition: background-color 0.3s ease;
-
-}
-
-.settings-option-r {
-  padding: 10px 20px;
-  width:240px;
-  height:48px;
-  border: none;   
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 21px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: 'Urbanist', sans-serif;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-.settings-option-l.active {
-  background-color: #4d4d4d;
-
-}
-.settings-option-m.active {
-  background-color: #4d4d4d;
-
-
-}
-.settings-option-r.active {
-  background-color: #4d4d4d;
-
-
-}
-
-.settings-option-l2 {
-  padding: 10px 20px;
-  width:380px;
-  height:48px;
-  border: none;   
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 21px;
-  cursor: pointer;
-  font-family: 'Urbanist', sans-serif;
-  transition: background-color 0.3s ease;
-  border-top-left-radius: 40px;
-  border-bottom-left-radius: 40px;
-}
-
-
-
-.settings-option-r2 {
-  padding: 10px 20px;
-  width:342px;
-  height:48px;
-  border: none;   
-  background-color: #2d2d2d;
-  color: white;
-  font-size: 21px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: 'Urbanist', sans-serif;
-  border-top-right-radius: 40px;
-  border-bottom-right-radius: 40px;
-}
-
-.settings-option-l2.active {
-  background-color: #4d4d4d;
-  
-
-}
-
-.settings-option-r2.active {
-  background-color: #4d4d4d;
-
-
-}
-
-/* Existing styles */
-
-/* Brightness slider customization */
-/* Existing styles */
-
-/* Brightness slider customization */
-.brightness-slider {
-  display: flex;
-  align-items: center;
-  width: 735px;
-  height: 52px;
-  position: relative;
-}
-
-.brightness-slider input[type='range'] {
-  margin: 0 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background: #4d4d4d;
-  height: 40px;
-  border-radius: 40px;
-  width: 100%;
-  position: relative; /* Ensure the thumb is positioned relative to the input */
-}
-
-.brightness-slider input[type='range']::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 70px;
-  height: 44px;
-  background: #ffffff;
-  border-radius: 20px; /* Make the thumb circular */
-  cursor: pointer;
-  position: relative;
-  background: url('/images/brightness.svg') no-repeat center center;
-  background-size: 50px 50px; /* Adjust the size of the icon */
-}
-
-.brightness-slider input[type='range']::-moz-range-thumb {
-  width: 70px;
-  height: 40px;
-  background: #ffffff;
-  border-radius: 20px; /* Make the thumb circular */
-  cursor: pointer;
-  position: relative;
-  background: url('/images/brightness.svg') no-repeat center center;
-  background-size: 70px 70px; /* Adjust the size of the icon */
-}
-
-.slider-thumb-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 21px;
-  color: #ffff;
-  pointer-events: none;
-}
-
-.parking-brake-button{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 264px;
-  height: 141.6px;
-  justify-content: center;
-  background-color: #0E0E0E; /* Button background color */
-  border: 1.6px solid #FFFFFF66; /* Button border color */
-  border-radius: 40px;
-  
-  color: white;
-  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
-  font-size: 20px; /* Set font size to 20px */
-  cursor: pointer;
-  outline: none;
-  transition: background-color 0.3s;
-}  
-
-.parking-brake-button:hover {
-  background-color: #0E0E0E;
-}
-
-.parking-brake-button .icon img {
-  width: 50px; /* Adjust the size of the image */
-  margin-bottom: 10px;
-}
-
-.parking-brake-button .text {
-  text-align: center;
-}
-
-.parking-brake-button .text div {
-  margin: 5px 0;
-}
-
-.icon{
-  margin-right: 110px;
-  margin-top: 50px;
-}
-
-.text1{
-  margin-right: 100px;
-}
-.parking-brake-button1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 141.6px;
-  background-color: #0E0E0E; /* Button background color */
-  border: 1.6px solid #FFFFFF66; /* Updated button border color */
-  border-radius: 40px; /* Updated corner radius */
-  padding: 20px;
-  color: white;
-  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
-  font-size: 20px; /* Set font size to 20px */
-  cursor: pointer;
-  outline: none;
-  position: absolute;
-  top: 100px;
-  left: 685px;
-  transition: background-color 0.3s;
-}
-
-.parking-brake-button1:hover {
-  background-color: #0E0E0E;
-}
-
-.icon-text1 {
-  display: flex;
-  align-items: center;
-}
-
-.parking-brake-button1 .icon img {
-  width: 50px; /* Adjust the size of the image */
-  margin-right: 10px;
-}
-
-.parking-brake-button1 .text12,
-.parking-brake-button1 .text21 {
-  text-align: center;
-}
-
-.parking-brake-button1 .text12 {
-  font-size: 20px;
-}
-
-.parking-brake-button1 .text21{
-  margin-top: 10px; /* Space between the two text sections */
-  font-size: 20px;
-}
-
-.vehicle-power{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 176px;
-  height: 48px;
-  background-color: #0E0E0E; /* Button background color */
-  border: 1.6px solid #FFFFFF66; /* Updated button border color */
-  border-radius: 40px; /* Updated corner radius */
-  padding: 20px;
-  color: white;
-  font-family: 'Montserrat', sans-serif; /* Set font to Montserrat */
-  font-size: 20px; /* Set font size to 20px */
-  cursor: pointer;
-  outline: none;
-  position: absolute;
-  top: 350px;
-  left: 685px;
-  transition: background-color 0.3s;
-}
-
-.vehicle-power:hover{
-  background-color: #0E0E0E;
-}
-
-.below-vehicle-power{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  top: 417px;
-  left: 285px;
-  position: absolute;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  margin-left: 404px;
-  margin-bottom: 500px;
-}
-
-.beside-parking-brake{
-  font-family: 'Montserrat',sans-serif;
-  font-size: 20px;
-  position: absolute;
-  cursor: pointer;
-  outline: none;
-  color: white;
-  top: 117px;
-  left: 990px;
-}
-
-.arrow-button{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  outline: none;
-  border: #090909;
-  background-color: #090909;
-  position: relative;
-  width: 25;
-  height: 50%;
-  max-width: 25;
-  max-height: 25;
-}
 
 .sidebar {
   position:absolute;
@@ -721,7 +379,7 @@ span {
 }
 
 .controls-container {
-  background-color: #333; /* Grey background color */
+  background-color: rgba(81, 81, 81, 0.75);
   border-radius: 10px;
   padding: 20px;
   color: #fff; /* White text color */
@@ -738,13 +396,13 @@ span {
 
 .control-label {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   font-weight: bold;
 }
 
 .control-detail {
   font-size: 16px; /* Slightly smaller font for the detail text */
-  transform: translate(-108%, 80%);
+  transform: translate(-108%, 103%);
 }
 
 .control-status {
@@ -767,7 +425,7 @@ span {
   width: 677.5px; /* Adjust width as needed */
 }
 
-.arrow-image {
+.arrow-image {  
   position: absolute;
   
   left: 100px; /* Adjust position as needed */
@@ -781,6 +439,352 @@ span {
   transform: translate(40%,-43%);
   width: 1.1px; /* Adjust width as needed */
 }
+.pid-master-values-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  /* Background color to match the design */
+}
+
+.pid-values-container {
+  flex: 1;  
+  width:300px;
+  margin-right: 20px;
+  background-color: rgba(81, 81, 81, 0.75);
+  padding: 20px;
+  border-radius: 8px;
+  transform: translate(-410px, -60px);
+}
+
+.pid-values {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pid-value-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  /* Card background color */
+  border-radius: 8px;
+}
+
+.pid-label {
+  font-size: 16px;
+  color: #ffffff; /* Text color */
+  font-family: 'Urbanist', sans-serif;
+}
+
+.pid-value {
+  font-size: 16px;
+  color: #00ff00; /* Text color for values */
+}
+
+
+
+.car-image-container {
+  position: absolute;
+  transform: translate(9.7%, 35%);
+}
+
+.car-image1 {
+  width: 677.5px; /* Adjust based on your design */
+  
+}
+.pid-controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pid-controls-box {
+  width:225px;
+  background-color: rgba(81, 81, 81, 0.75);
+
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  transform: translate(-150%, -15%);
+}
+
+.pid-controls-box h3 {
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.control-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.control-label {
+  font-weight: bold;
+  font-family: 'Urbanist', sans-serif;
+  
+}
+
+.control-status {
+  font-weight: normal;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+.car-container2 {
+  position: absolute;
+}
+
+.car-image2 {
+  width: 677.5px;
+  
+  transform: translate(4%, 35%);
+}
+
+.arrow3-image {
+  position: absolute;
+  
+  transform: translate(-199%, 700%);
+}
+
+
+.arrow4-image {
+  position: absolute;
+  top: 27%;
+  left: 40.3%;
+  transform: translate(-50%, -30%);
+}
+.control-unit-screen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  
+  color: white;
+}
+
+
+.control-unit-box {
+  width: 509px;
+  height: 350px;
+  background-color: rgba(81, 81, 81, 0.75);
+  padding: 20px;  
+  border-radius: 8px;
+  transform: translate(3%, 4%);
+}
+
+.control-unit-box h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.control-unit-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.control-unit-label {
+  flex: 2;
+}
+
+.control-unit-status {
+  flex: 1;
+  text-align: right;
+}
+
+.control-unit-status-detail {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  color: #00FF00;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.car-container3 {
+  position: relative;
+
+}
+
+.car-image3 {
+  width: 677.5px;
+  transform: translate(3%, 39%);
+  
+}
+
+.arrow-horizontal {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 18%;
+  left: 50.25%;
+  transform: translate(-131%,30%);
+}
+
+.arrow-vertical {
+  position: absolute;
+  width: auto;
+  height: 100px;
+  top: 18.5%;
+  left: 38.8%;
+  transform: translateX(-50%);
+}
+.control-unit2-screen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  color: white;
+}
+
+.control-unit2-box {
+  width: 509px;
+  height: 350px;
+  background-color: rgba(81, 81, 81, 0.75);
+  padding: 20px;
+  border-radius: 8px;
+  transform: translate(3%, 4%);
+}
+
+.control-unit2-box h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.control-unit2-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.control-unit2-label {
+  grid-column: 1 / 2;
+  padding-left: 0; /* Remove padding */
+}
+
+.control-unit2-status {
+  grid-column: 2 / 3;
+  text-align: right;
+}
+
+.control-unit2-status-detail {
+  grid-column: 3 / 4;
+  text-align: right;
+  font-weight: bold;
+  color: #00FF00;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.car-container4 {
+  position: relative;
+}
+
+.car-image4 {
+  width: 677.5px;
+  transform: translate(3%, 39%);
+}
+
+.arrow-horizontal2 {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 18%;
+  left: 50.25%;
+  transform: translate(-131%, 30%);
+}
+
+.arrow-vertical2 {
+  position: absolute;
+  width: auto;
+  height: 100px;
+  top: 18.5%;
+  left: 38.8%;
+  transform: translateX(-50%);
+}
+.control-unit3-screen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  color: white;
+}
+
+.control-unit3-box {
+  width: 509px;
+  height: 350px;
+  background-color: rgba(81, 81, 81, 0.75);
+  padding: 20px;  
+  border-radius: 8px;
+  transform: translate(3%, 4%);
+}
+
+.control-unit3-box h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.control-unit3-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.control-unit3-label {
+  flex: 2;
+}
+
+.control-unit3-status {
+  flex: 1;
+  text-align: right;
+}
+
+.control-unit3-status-detail {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  color: #00FF00;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.car-container-unit3 {
+  position: relative;
+}
+
+.car-image-unit3 {
+  width: 677.5px;
+  transform: translate(3%, 39%);
+}
+
+.arrow-horizontal-unit3 {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: 18%;
+  left: 50.25%;
+  transform: translate(-131%,30%);
+}
+
+.arrow-vertical-unit3 {
+  position: absolute;
+  width: auto;
+  height: 100px;
+  top: 18.5%;
+  left: 38.8%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+
 
 
 
